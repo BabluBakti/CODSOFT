@@ -1,0 +1,260 @@
+body, h1, h2, p, ul, li, button, input, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background: linear-gradient(135deg, #87CEEB, #f8f9fa); /* Gradient from LightSkyBlue to Light Gray */
+    font-family: 'Roboto', sans-serif; /* Change to preferred font family */
+    color: #495057; /* Dark Charcoal */
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40; /* Dark Gray */
+    padding: 10px;
+}
+
+.logo-name {
+    margin-right: 20px; 
+    text-align: center; 
+}
+
+.logo-name img {
+    display: block;
+    width: 150px; 
+    height: auto;
+    margin: 10px auto; 
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #495057; /* Dark Charcoal */
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 3em;
+    color: #007bff; /* Dodger Blue */
+}
+
+.intro p {
+    font-size: 1.4em;
+    color: #495057; /* Dark Charcoal */
+}
+
+.button-cv {
+    padding: 15px 25px;
+    background-color: #dc3545; /* Red */
+    color: #ffffff; /* White */
+    text-decoration: none;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto; 
+}
+
+.img-part {
+    position: relative;
+    text-align: center; /* Center the image */
+}
+
+.my-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.photo-space {
+    height: 50px; 
+}
+
+.about-me {
+    text-align: center;
+}
+
+.skill-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.me-and-my {
+    flex-basis: 100%; /* Occupy full width */
+}
+
+.me-and-my h1 {
+    font-size: 2em;
+    color: #007bff; /* Dodger Blue */
+}
+
+.para p {
+    font-size: 1.2em;
+    color: #495057; /* Dark Charcoal */
+}
+
+.skill-img {
+    flex-basis: 100%; /* Occupy full width */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.skill-img img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 20px; 
+}
+
+.cards {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card {
+    margin-top: 20px;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-card h2 {
+    font-size: 1.5em;
+    color: #007bff; /* Dodger Blue */
+    margin-top: 10px;
+}
+
+.project-card p {
+    font-size: 1em;
+    color: #495057; /* Dark Charcoal */
+    margin-top: 10px;
+}
+
+.visit-link button {
+    padding: 10px 15px;
+}
+
+
+
+.Contact-us {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heading h1 {
+    font-size: 2em;
+    color: #007bff; /* Dodger Blue */
+    margin-bottom: 20px;
+}
+
+.fillup-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.social-links {
+    flex-basis: 50%;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+.emailarea {
+    color: #007bff; /* Dodger Blue */
+}
+
+.links a {
+    color: #007bff; /* Dodger Blue */
+    margin-right: 10px;
+}
+
+.form {
+    flex-basis: 40%;
+}
+
+.text,
+.email,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.submit,
+.reset {
+    padding: 10px 20px;
+    background-color: #dc3545; /* Red */
+    color: #ffffff; /* White */
+    text-decoration: none;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.submit:hover,
+.reset:hover {
+    background-color: #bd2130; /* Darker Red */
+}
+
+/* Add styles for other sections as needed */
+
+.footer,
+.copyright {
+    background-color: #343a40; /* Dark Gray */
+    color: #ffffff; /* White */
+    padding: 10px;
+    text-align: center;
+}
+
+.hr {
+    border: 1px solid #495057; /* Dark Charcoal */
+    margin: 20px 0;
+}
